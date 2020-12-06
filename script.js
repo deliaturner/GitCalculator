@@ -26,3 +26,6 @@ function division() {
   let totalAnswer = num1 / num2;
   answer.value = totalAnswer;
 }
+function hello() {
+  document.querySelector("body").innerText = "Hello";
+}
